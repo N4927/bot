@@ -1,0 +1,59 @@
+title = """ ╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╭╮
+╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╭╯╰╮
+╭━━┳━━┳━╮╭┳━━╮╭╮╭┳━┻╮╭╋━━┳━╮
+┃╭╮┃┃━┫╭╮╋┫━━┫┃╰╯┃┃━┫┃┃┃━┫╭╯
+┃╰╯┃┃━┫┃┃┃┣━━┃┃┃┃┃┃━┫╰┫┃━┫┃
+┃╭━┻━━┻╯╰┻┻━━╯╰┻┻┻━━┻━┻━━┻╯
+┃┃
+╰╯"""
+
+print( "welcome to: \n " + title + " wrote a name: \n")
+start = 1
+def penis():
+    penis_draw_begin = """
+    ----......▄▌▒▒▀▒▒▐▄
+    .... ▐▒▒▒▒▒▒▒▒▒▌
+    ... ▐▒▒▒▒▒▒▒▒▒▒▒▌
+    ....▐▒▒▒▒▒▒▒▒▒▒▒▌
+    ....▐▀▄▄▄▄▄▄▄▄▄▀▌
+    ....▐░░░░░░░░░░░▌
+    ....▐░░░░░░░░░░░▌"""
+    penis_draw_end = """ 
+    ....▐░░░░░░░░░░░▌
+    ...▄█▓░░░░░░░░░▓█▄
+    ..▄▀░░░░░░░░░░░░░ ▀▄
+    .▐░░░░░░░▀▄▒▄▀░░░░░░▌
+    ▐░░░░░░░▒▒▐▒▒░░░░░░░▌
+    ▐▒░░░░░▒▒▒▐▒▒▒░░░░░▒▌
+    .▀▄▒▒▒▒▒▄▀▒▀▄▒▒▒▒▒▄▀
+    .. ▀▀▀▀▀ ▀▀▀▀▀
+    """
+    penis_draw_med = """    ....▐░░░░░░░░░░░▌   """
+    i = 0
+    final_frase = ""
+    
+    moltiplicator = 2
+    user = input()
+    lenght = len(user)
+    if user[:1] == "a":
+        moltiplicator = 10
+        final_frase = "nice cock bro"
+    elif user[:1] == "g" or user[:1] == "d":
+        moltiplicator =1
+        final_frase == "ahahah smalll penis brooooo"
+        
+    else:
+        moltiplicator = 2
+        final_frase = "meh"
+    
+    final_lenght = lenght *moltiplicator
+    print(penis_draw_begin)
+    while i <final_lenght:
+        print(penis_draw_med)
+        i += 1
+    print(penis_draw_end)
+    print(final_frase)
+    
+    
+while True:
+    penis()
